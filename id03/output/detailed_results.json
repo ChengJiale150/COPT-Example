@@ -1,0 +1,97 @@
+{
+  "status": "OPTIMAL",
+  "objective_value": 10349920.0,
+  "detailed_solution": {},
+  "monthly_plan": {
+    "month_1": {
+      "production": 4992.0,
+      "outsourcing": 8.0,
+      "inventory": 0.0,
+      "backorder": 0.0,
+      "workforce": 156,
+      "hiring": 0,
+      "firing": 844,
+      "overtime_hours": 0.0,
+      "demand": 20000
+    },
+    "month_2": {
+      "production": 4992.0,
+      "outsourcing": 35008.0,
+      "inventory": 0.0,
+      "backorder": 0.0,
+      "workforce": 156,
+      "hiring": 0,
+      "firing": 0,
+      "overtime_hours": 0.0,
+      "demand": 40000
+    },
+    "month_3": {
+      "production": 4992.0,
+      "outsourcing": 37008.0,
+      "inventory": 0.0,
+      "backorder": 0.0,
+      "workforce": 156,
+      "hiring": 0,
+      "firing": 0,
+      "overtime_hours": 0.0,
+      "demand": 42000
+    },
+    "month_4": {
+      "production": 4992.0,
+      "outsourcing": 30008.0,
+      "inventory": 0.0,
+      "backorder": 0.0,
+      "workforce": 156,
+      "hiring": 0,
+      "firing": 0,
+      "overtime_hours": 0.0,
+      "demand": 35000
+    },
+    "month_5": {
+      "production": 4992.0,
+      "outsourcing": 14008.0,
+      "inventory": 0.0,
+      "backorder": 0.0,
+      "workforce": 156,
+      "hiring": 0,
+      "firing": 0,
+      "overtime_hours": 0.0,
+      "demand": 19000
+    },
+    "month_6": {
+      "production": 4992.0,
+      "outsourcing": 23508.0,
+      "inventory": 10000.0,
+      "backorder": 0.0,
+      "workforce": 156,
+      "hiring": 0,
+      "firing": 0,
+      "overtime_hours": 0.0,
+      "demand": 18500
+    }
+  },
+  "summary": {
+    "total_production": 29952.0,
+    "total_outsourcing": 139548.0,
+    "total_supply": 169500.0,
+    "total_demand": 174500
+  },
+  "cost_breakdown": {
+    "material_cost": 2695680.0,
+    "outsourcing_cost": 27909600.0,
+    "inventory_cost": 150000.0,
+    "backorder_cost": 0.0,
+    "regular_wage_cost": 4492800.0,
+    "overtime_wage_cost": 0.0,
+    "hiring_cost": 0.0,
+    "firing_cost": 6752000.0,
+    "total_cost": 42000080.0,
+    "total_revenue": 52350000.0,
+    "net_profit": 10349920.0
+  },
+  "solver_stats": {
+    "best_bound": 10350000.0,
+    "optimality_gap": 7.729468599033817e-06,
+    "node_count": 1
+  }
+}
