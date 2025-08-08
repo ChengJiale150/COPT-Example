@@ -1,0 +1,6 @@
+Two-Side Parking Minimax Results
+Base model objective L*: 28.6000
+  Side lengths (base) => side0: 28.5000, side1: 28.6000
+Capacity-30 model status: OPTIMAL
+Capacity-30 model objective L*: 28.6000
+  Side lengths (cap30) => side0: 28.5000, side1: 28.6000
