@@ -1,0 +1,171 @@
+工厂生产规划问题求解结果
+========================
+
+最优目标函数值: 218,280.00 元
+求解状态: 最优解
+
+详细结果 (JSON格式):
+{
+  "status": "OPTIMAL",
+  "objective_value": 218280.0,
+  "workforce_allocation": {
+    "week_1": {
+      "skilled_normal": 17,
+      "skilled_overtime": 22,
+      "skilled_training": 11,
+      "new_normal": 0,
+      "new_overtime": 0,
+      "new_trainees": 33
+    },
+    "week_2": {
+      "skilled_normal": 7,
+      "skilled_overtime": 32,
+      "skilled_training": 11,
+      "new_normal": 0,
+      "new_overtime": 0,
+      "new_trainees": 0
+    },
+    "week_3": {
+      "skilled_normal": 50,
+      "skilled_overtime": 0,
+      "skilled_training": 0,
+      "new_normal": 33,
+      "new_overtime": 0,
+      "new_trainees": 0
+    },
+    "week_4": {
+      "skilled_normal": 50,
+      "skilled_overtime": 0,
+      "skilled_training": 0,
+      "new_normal": 33,
+      "new_overtime": 0,
+      "new_trainees": 0
+    },
+    "week_5": {
+      "skilled_normal": 50,
+      "skilled_overtime": 0,
+      "skilled_training": 0,
+      "new_normal": 33,
+      "new_overtime": 0,
+      "new_trainees": 0
+    },
+    "week_6": {
+      "skilled_normal": 50,
+      "skilled_overtime": 0,
+      "skilled_training": 0,
+      "new_normal": 33,
+      "new_overtime": 0,
+      "new_trainees": 0
+    },
+    "week_7": {
+      "skilled_normal": 44,
+      "skilled_overtime": 0,
+      "skilled_training": 6,
+      "new_normal": 33,
+      "new_overtime": 0,
+      "new_trainees": 17
+    },
+    "week_8": {
+      "skilled_normal": 44,
+      "skilled_overtime": 0,
+      "skilled_training": 6,
+      "new_normal": 33,
+      "new_overtime": 0,
+      "new_trainees": 0
+    }
+  },
+  "production_plan": {
+    "week_1": {
+      "food_I": 10000.0,
+      "food_II": 6000.0
+    },
+    "week_2": {
+      "food_I": 10000.0,
+      "food_II": 7200.0
+    },
+    "week_3": {
+      "food_I": 19200.0,
+      "food_II": 8400.0
+    },
+    "week_4": {
+      "food_I": 15200.0,
+      "food_II": 10800.0
+    },
+    "week_5": {
+      "food_I": 15200.000000000002,
+      "food_II": 10800.0
+    },
+    "week_6": {
+      "food_I": 13200.000000000002,
+      "food_II": 12000.0
+    },
+    "week_7": {
+      "food_I": 13200.0,
+      "food_II": 10560.0
+    },
+    "week_8": {
+      "food_I": 20000.0,
+      "food_II": 6479.999999999998
+    }
+  },
+  "training_schedule": {
+    "week_1": 33,
+    "week_2": 0,
+    "week_3": 0,
+    "week_4": 0,
+    "week_5": 0,
+    "week_6": 0,
+    "week_7": 17,
+    "week_8": 0
+  },
+  "inventory_backlog": {
+    "week_1": {
+      "food_I_inventory": 0.0,
+      "food_I_backlog": 0.0,
+      "food_II_inventory": 0.0,
+      "food_II_backlog": 0.0
+    },
+    "week_2": {
+      "food_I_inventory": 0.0,
+      "food_I_backlog": 0.0,
+      "food_II_inventory": 0.0,
+      "food_II_backlog": 0.0
+    },
+    "week_3": {
+      "food_I_inventory": 7199.999999999999,
+      "food_I_backlog": 0.0,
+      "food_II_inventory": 0.0,
+      "food_II_backlog": 0.0
+    },
+    "week_4": {
+      "food_I_inventory": 10399.999999999998,
+      "food_I_backlog": 0.0,
+      "food_II_inventory": 0.0,
+      "food_II_backlog": 0.0
+    },
+    "week_5": {
+      "food_I_inventory": 9599.999999999998,
+      "food_I_backlog": 0.0,
+      "food_II_inventory": 0.0,
+      "food_II_backlog": 0.0
+    },
+    "week_6": {
+      "food_I_inventory": 6800.0,
+      "food_I_backlog": 0.0,
+      "food_II_inventory": 0.0,
+      "food_II_backlog": 0.0
+    },
+    "week_7": {
+      "food_I_inventory": 0.0,
+      "food_I_backlog": 0.0,
+      "food_II_inventory": 0.0,
+      "food_II_backlog": 1440.0
+    },
+    "week_8": {
+      "food_I_inventory": 0.0,
+      "food_I_backlog": 0.0,
+      "food_II_inventory": 0.0,
+      "food_II_backlog": 6960.000000000002
+    }
+  }
+}
